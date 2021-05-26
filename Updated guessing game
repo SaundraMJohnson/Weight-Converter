@@ -1,0 +1,14 @@
+game_start = input('Do you want to play a game?')
+
+#Start of program of game
+correct_number = 10
+guess_number = input("Guess? ")
+final_number = str(correct_number)
+
+if int(guess_number) > int(correct_number):
+    print('That is too big')
+elif int(guess_number) < int(correct_number):
+    print('That was too small...')
+else:
+    print('Yay!')
+print('It was ' + final_number + ('!'))
