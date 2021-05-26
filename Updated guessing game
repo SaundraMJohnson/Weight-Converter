@@ -1,5 +1,9 @@
-game_start = input('Do you want to play a game?')
-
+while True:
+    game_start = input('Do you want to play a game? ')
+    if game_start.lower() == 'yes':
+        break
+print('May the odds ever be in your favor...')
+print('')
 #Start of program of game
 correct_number = 10
 guess_number = input("Guess? ")
